@@ -22,3 +22,20 @@
     console.log("It's not a prime number.");
   }
 }
+
+//Guess and win task
+{
+  let opinion = prompt(" will you play? ");
+  if (opinion == "y" || opinion == "yes") {
+    let gameNum = 35;
+    let x = Number(prompt("Guess and win : "));
+
+    while (gameNum !== x) {
+      x = Number(prompt("Wrong! Try again :"));
+    }
+
+    console.log("Congratulations. You have won.");
+  } else {
+    console.log("do second part");
+  }
+}
