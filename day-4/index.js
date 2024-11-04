@@ -1,3 +1,4 @@
+console.log("Day-4");
 //finding prime numbers
 {
   let isPrime = true;
@@ -38,4 +39,13 @@
   } else {
     console.log("do second part");
   }
+}
+//username generator
+{
+  let name = prompt("Enter your name to generate username:");
+  let x = name.length;
+  let username = ` @${name}${x}`;
+  const output = `Entered value: ${name} \n Generated Username : ${username}`;
+
+  console.log(output);
 }
