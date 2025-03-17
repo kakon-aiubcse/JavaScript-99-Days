@@ -73,39 +73,39 @@ console.log("result:", addition);
 
 //first one
 
-// let score = [85, 92, 98, 93, 45, 78, 87, 92];
+let score = [85, 92, 98, 93, 45, 78, 87, 92];
 
-// let A = score.filter((res) => {
-//   return res >= 90 ? res : 0;
-// });
-// console.log("Answer of students avobe 90+", A);
+let A = score.filter((res) => {
+  return res >= 90 ? res : 0;
+});
+console.log("Answer of students avobe 90+", A);
 
-// {
-//   let input = prompt("Enter Numbers to add");
-//   let n = input.split(",").map(Number);
-//   let sumofall = n.reduce((res, first) => {
-//     return res + first;
-//   });
-//   console.log("Result", sumofall);
-// }
-// {
-//   let input1 = Number(prompt("Enter first Numbers to multiply"));
-//   let input2 = Number(prompt("Enter second Number to multiply"));
-//   let n = [input1, input2];
-//   let multiofall = n.reduce((res, first) => {
-//     return res * first;
-//   });
-//   console.log("Result", multiofall);
-// }
+{
+  let input = prompt("Enter Numbers to add");
+  let n = input.split(",").map(Number);
+  let sumofall = n.reduce((res, first) => {
+    return res + first;
+  });
+  console.log("Result", sumofall);
+}
+{
+  let input1 = Number(prompt("Enter first Numbers to multiply"));
+  let input2 = Number(prompt("Enter second Number to multiply"));
+  let n = [input1, input2];
+  let multiofall = n.reduce((res, first) => {
+    return res * first;
+  });
+  console.log("Result", multiofall);
+}
 
-// {
-//   let input = prompt("Enter Numbers to find production");
-//   let n = input.split(",").map(Number);
-//   let multiofall = n.reduce((res, first) => {
-//     return res * first;
-//   });
-//   console.log("Result", multiofall);
-// }
+{
+  let input = prompt("Enter Numbers to find production");
+  let n = input.split(",").map(Number);
+  let multiofall = n.reduce((res, first) => {
+    return res * first;
+  });
+  console.log("Result", multiofall);
+}
 
 let num = prompt("Enter numbers separated by commas");
 let n = num.split(",").map(Number);
