@@ -1,4 +1,4 @@
-//Day 11
+//Day 12
 // Javascript 99days
 //object orient programming
 //learning prototype
