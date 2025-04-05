@@ -103,9 +103,17 @@ myFunc();
 //here name is accessible inside the display name function and creating myFunc like new function is returning that inside's displayname property.
 
 
-let g = document.querySelector("#green");
-let o = document.querySelector("#orange");
 
-g.addEventListener("click", ()=>{
-g.style.backgroundColor = "green"
-})
+function colorchanging(color){
+    
+    return function  (){
+         document.body.style.backgroundColor = `${color}`
+    }
+    
+
+}
+
+
+
+let g = document.getElementById("green").onclick = colorchanging("green")
+let o = document.querySelector("#orange").onclick = colorchanging("orange")
