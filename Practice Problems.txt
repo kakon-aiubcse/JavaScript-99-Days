@@ -1,0 +1,34 @@
+Practice Problems: 
+
+1	Write a function to reverse a string
+2	Count the number of vowels in a string
+3	Return the factorial of a given number
+4	Write a function to check if a number is prime
+5	Find the maximum number in an array
+6	Implement a function to remove duplicates from an array
+7	Write a program to capitalize the first letter of each word in a sentence
+8	Write a function to check if a string is a palindrome
+9	Implement a fizzBuzz logic from 1 to 100
+10	Return the second largest number from an array
+
+11	Write a function that flattens a nested array (e.g., [1, [2, [3]], 4] to [1, 2, 3, 4])
+12	Build a debounce function (simulate how search debounce works)
+13	Create a function to group anagrams from an array of strings
+14	Implement a custom map function (like Array.prototype.map)
+15	Write a function that takes a sentence and counts word frequency
+16	Build a calculator using only functions (no eval)
+17	Implement deep cloning of an object
+18	Create a function that validates a valid parenthesis string
+19	Implement a binary search in a sorted array
+20	Write a recursive function to generate the nth Fibonacci number
+
+21	Implement LRU Cache logic using JS (Map + Doubly Linked List or just Map + logic)
+22	Write a function to solve the Two Sum problem
+23	Solve Longest Substring Without Repeating Characters
+24	Given an array, return the maximum product subarray
+25	Given a matrix, rotate it 90 degrees in place
+26	Write a function to serialize and deserialize a nested object
+27	Solve Merge Intervals problem
+28	Implement a Promise.all polyfill
+29	Write a function to implement a throttle mechanism
+30	Write a program to detect a cycle in a linked list

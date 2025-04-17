@@ -7,9 +7,6 @@ import { shop } from './shop';
 
 //spread operator for arrays
 
-
-
-
 let data = [1, 2, 3];
 let response = ["kakon", "khairul"];
 
