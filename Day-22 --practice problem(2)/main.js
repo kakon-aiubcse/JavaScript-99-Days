@@ -26,3 +26,22 @@
   }
   console.log(vwlcounter(str));
 }
+//second approach using includes
+{
+    let str = "Kakon";
+  
+    function vowelFinder(str) {
+      let count = 0;
+      const vowels = ["a", "e", "i", "o", "u"];
+      const lowstr = str.toLowerCase();
+      for (let data of lowstr) {
+        console.log(data);
+        if (vowels.includes(data)) {
+          count++;
+        }
+      }
+      console.log( count);
+    }
+    vowelFinder(str);
+  }
+  
