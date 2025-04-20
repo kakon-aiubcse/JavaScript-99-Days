@@ -3,7 +3,7 @@ Practice Problems:
 1	Write a function to reverse a string
 2	Count the number of vowels in a string
 3	Return the factorial of a given number
-4	Write a function to check if a number is prime
+4	Write a function to return all prime numbers less than a given number n
 5	Find the maximum number in an array
 6	Implement a function to remove duplicates from an array
 7	Write a program to capitalize the first letter of each word in a sentence
