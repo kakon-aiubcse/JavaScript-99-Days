@@ -19,3 +19,23 @@ function fizzBuzz() {
 }
 fizzBuzz();
 
+//using switch case
+
+function fizzBuzz() {
+  for (let i = 1; i <= 100; i++) {
+    switch (true) {
+      case (i % 3 === 0 && i % 5 === 0):
+        console.log("FizzBuzz", i);
+        break;
+      case (i % 3 === 0):
+        console.log("Fizz", i);
+        break;
+      case (i % 5 === 0):
+        console.log("Buzz", i);
+        break;
+      default:
+        console.log(i);
+    }
+  }
+}
+fizzBuzz();
