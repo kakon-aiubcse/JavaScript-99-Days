@@ -1,0 +1,22 @@
+header {
+  background-color: teal;
+  padding: 1.25rem;
+  color: white;
+  margin: 20px;
+}
+#main {
+  background-color: black;
+  padding: 1.25rem;
+  color: white;
+  margin: 20px;
+  min-height: 100vh;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#section{
+    display : flex;
+    width : auto;
+    color:white;
+}
